@@ -87,7 +87,6 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover,
 a:focus,
 a:active {
   color: #000000;
@@ -2676,13 +2675,12 @@ input::-moz-focus-inner {
   margin-left: auto; 
 }
 
-.masonry .grid-sizer,
 .masonry__brick {
   width: 50%;
 }
 
 .masonry__brick {
-  float: left;
+  float: right;
   padding: 0 10px;
   margin-bottom: 60px;
 }
@@ -2693,7 +2691,8 @@ input::-moz-focus-inner {
   background-color: #EFEFEF;
   transition: all 0.5s ease-in-out;
 }
-
+.float-left{
+}
 /* item-folio thumb
  * -------------------------------------- */
 .item-folio__thumb {
@@ -2818,6 +2817,7 @@ input::-moz-focus-inner {
 .item-folio__caption {
   display: none;
 }
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
