@@ -2100,7 +2100,7 @@ input::-moz-focus-inner {
 	}
 	.intro-content .intro-position span::before, .intro-content .intro-position span::after {
 		display: none !important;
-	}
+	} 
 	.intro-social {
 		font-size: 2.4rem;
 	}
@@ -2116,7 +2116,7 @@ input::-moz-focus-inner {
 }
 
 .s-about .row {
-  max-width: 1140px;
+  /* max-width: 1140px; */
 }
 
 .s-about > [class*="about-"]:last-child {
