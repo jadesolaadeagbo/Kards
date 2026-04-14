@@ -2,33 +2,27 @@
 <html class="no-js" lang="en">
 <head>
 
-    <!--- basic page needs
-    ================================================== -->
     <meta charset="utf-8">
-    <title>Jadesola.</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
+    <title>Jadesola Adeagbo — Frontend Developer</title>
+    <meta name="description" content="Portfolio of Jadesola Adeagbo — Frontend Developer, Blockchain Enthusiast, and Technical Writer.">
+    <meta name="author" content="Jadesola Adeagbo">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-
-    <!-- script
-    ================================================== -->
+    <!-- Scripts -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
-    
 
-    <!-- favicons
-    ================================================== -->
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -37,484 +31,392 @@
 </head>
 
 <body id="top">
+
+    <!-- Preloader -->
     <div id="preloader">
         <div id="loader"></div>
     </div>
-    <div class="body-wrapper"> 
-         <!-- site header
+
+    <!-- Header
     ================================================== -->
     <header class="s-header">
+        <div class="header-inner">
 
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="images/Jadesola.svg" alt="Homepage">
+            <div class="header-logo">
+                <a href="index.html" class="site-logo">
+                    <img src="images/Jadesola.svg" alt="Jadesola">
+                </a>
+            </div>
+
+            <nav class="header-nav-wrap">
+                <ul class="header-main-nav">
+                    <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
+                    <li><a class="smoothscroll" href="#about">About</a></li>
+                    <li><a class="smoothscroll" href="#experience">Experience</a></li>
+                    <li><a class="smoothscroll" href="#works">Works</a></li>
+                    <li><a href="https://jadesolaadeagbo.hashnode.dev/" target="_blank" rel="noopener">Blog</a></li>
+                    <li><a class="smoothscroll" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a class="header-menu-toggle" href="#" aria-label="Toggle menu">
+                <span></span>
             </a>
+
+        </div>
+    </header>
+    <!-- end s-header -->
+
+
+    <!-- Hero Section
+    ================================================== -->
+    <section id="intro" class="s-hero target-section">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <p class="hero-eyebrow">Hi There,</p>
+            <h1 class="hero-title">I'm Jadesola<br>Adeagbo.</h1>
+            <p class="hero-roles">
+                <span>Front-end Developer</span>
+                <span>Blockchain Enthusiast</span>
+                <span>Technical Writer</span>
+            </p>
+            <div class="hero-cta">
+                <a class="btn btn--primary smoothscroll" href="#about">More About Me</a>
+                <a class="btn btn--outline smoothscroll" href="#works">View Work</a>
+            </div>
         </div>
 
-        <nav class="header-nav-wrap">
-            <ul class="header-main-nav">
-                <li class="current"><a class="smoothscroll" href="#intro" title="intro">Intro</a></li>
-                <li><a class="smoothscroll" href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll" href="#about-experience" title="experience">Experience</a></li>
-                <li><a class="smoothscroll" href="#works" title="works">WORKS</a></li>
-                <li><a href="https://jadesolaadeagbo.hashnode.dev/" title="blog">BLOG</a></li>
-                <li><a class="smoothscroll" href="#contact" title="contact us">Contact</a></li>	
-            </ul>
-        </nav>
+        <ul class="hero-social">
+            <li><a href="https://instagram.com/jadesolaadeagbo" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://github.com/jadesolaadeagbo" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://linkedin.com/in/jadesolaadeagbo" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
 
-        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+        <div class="hero-scroll-cue">
+            <span class="scroll-line"></span>
+        </div>
 
-    </header> <!-- end s-header -->
+    </section>
+    <!-- end s-hero -->
 
 
-	<!-- intro section
-   ================================================== -->
-   <section id="intro">   
-
-    <div class="intro-overlay"></div>	
-
-    <div class="intro-content">
-        <div class="row">
-
-            <div class="col-twelve">
-
-                <h5>Hi There,</h5>
-                <h1>I'm Jadesola Adeagbo.</h1>
-
-                <p class="intro-position">
-                    <span>Front-end Developer</span>
-                    <span>Blockchain Enthusiast</span> 
-                    <span>Technical Writer</span> 
-                </p>
-
-	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
-
-            </div>  
-            
-        </div>   		 		
-    </div> <!-- /intro-content --> 
-
-    <ul class="intro-social">        
-      <li><a href="https://instagram.com/jadesolaadeagbo"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="https://github.com/jadesolaadeagbo"><i class="fab fa-github"></i></a></li>
-      <li><a href="https://linkedin.com/in/jadesolaadeagbo"><i class="fab fa-linkedin"></i></a></li>
-
-      
-   </ul> <!-- /intro-social -->      	
-
-</section> <!-- /intro -->
-
-    <!-- about
+    <!-- About Section
     ================================================== -->
     <section id="about" class="s-about target-section">
+        <div class="container">
 
-        <div class="about-experience" id="about-experience">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+            </div>
 
-            <div class="row heading-block" data-aos="fade-up">
-                <div class="column large-full">
-                    <h2 class="section-heading">About Me</h2>
+            <div class="about-content" data-aos="fade-up">
+                <p>
+                    Hello, my name is Jadesola Adeagbo. I am a frontend developer and a Blockchain Enthusiast.
+                    My expertise includes HTML, CSS, JavaScript, and responsive design. I am proficient in
+                    frameworks such as React as well as libraries like jQuery and Bootstrap. I'm open-minded
+                    and always ready to learn. Feel free to explore my portfolio to see examples of my work.
+                </p>
+                <p>I am proficient with the following tools:</p>
+
+                <div class="skills-grid" data-aos="fade-up" data-aos-delay="100">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Vue JS</span>
+                    <span class="skill-tag">Node JS</span>
+                    <span class="skill-tag">Express JS</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">CI/CD</span>
+                    <span class="skill-tag">Tailwind CSS</span>
+                    <span class="skill-tag">Sass / SCSS</span>
+                    <span class="skill-tag">Styled Components</span>
+                    <span class="skill-tag">Ant Design</span>
+                    <span class="skill-tag">Material UI</span>
+                    <span class="skill-tag">Docker</span>
+                </div>
+
+                <div class="about-cta" data-aos="fade-up" data-aos-delay="150">
+                    <a href="#contact" class="btn btn--outline smoothscroll">Hire Me</a>
+                    <a href="images/Resume.pdf" class="btn btn--primary" download>Download CV</a>
                 </div>
             </div>
 
-            <div class="row about-experience__timeline" data-aos="fade-up">
-                    
-                    Hello, my name is Jadesola Adeagbo. I am a frontend developer and a Blockchain Enthusiast. My expertise includes HTML, CSS, JavaScript, and responsive design. I am proficient in using frameworks such as React as well as libraries like jQuery and Bootstrap. I'm open-minded and always ready to learn. Please feel free to explore my portfolio to see examples of my work.
-                    <br><br>
-                    I am proficient with the following tools:
+        </div>
+    </section>
+    <!-- end s-about -->
 
-                    <br><br>
-                    <div class="row heading-block heading-block--center" data-aos="fade-up">
-                        <div class="column large-full">
-            
-            
-                    <div class="skill-div"  data-aos="fade-up">
-                        <p class="skill">HTML</p>
-                        <p class="skill">CSS</p>
-                        <p class="skill">JAVASCRIPT</p>
-                        <p class="skill">REACT</p>
-                        <p class="skill">VUE JS</p>
-                        <p class="skill">NODE JS</p>
-                        <p class="skill">EXPRESS JS</p>
-                        <p class="skill">GIT</p>
-                        <p class="skill">GITHUB</p>
-                        <p class="skill">MONGODB</p>
-                        <p class="skill">CI/CD</p>
-                        <p class="skill">TAILWIND CSS</p>
-                        <p class="skill">SASS/SCSS</p>
-                        <p class="skill">STYLED COMPONENTS</p>
-                        <p class="skill">ANT DESIGN</p>
-                        <p class="skill">MATERIAL UI</p>
-                        <p class="skill">DOCKER</p>
+
+    <!-- Experience Section
+    ================================================== -->
+    <section id="experience" class="s-experience target-section">
+        <div class="container">
+
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Work & Education</h2>
+            </div>
+
+            <div class="experience-grid">
+
+                <!-- Work -->
+                <div class="timeline" data-aos="fade-up">
+                    <div class="timeline-label">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Work Experience</span>
                     </div>
-            
-                        
-            
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-body">
+                            <span class="timeline-date">July 2025 – Present</span>
+                            <h3 class="timeline-company">Wema Bank</h3>
+                            <h4 class="timeline-role">Backend Developer</h4>
+                            <p>Wema Bank is a leading financial institution in Nigeria, providing innovative banking
+                                 solutions. I design and develop well-documented RESTful APIs using C# and ASP.NET Core to support scalable web and mobile applications.
+</p>
+                        </div>
                     </div>
-                    <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut fugiat a qui debitis possimus, commodi beatae vero. Maiores iure animi necessitatibus, enim omnis reiciendis, nobis quo repellendus reprehenderit, porro fugiat?
 
-                    <br><br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quia incidunt laboriosam velit maxime. Nihil inventore, recusandae in ullam mollitia cumque et corrupti deserunt officia est ea consectetur laborum! Placeat! -->
-                    </p>
-            </div>
-    
-            <div class="row about-me__buttons">
-                <div class="column large-half tab-full" data-aos="fade-up">
-                    <a href="#contact" class="btn btn--stroke smoothscroll full-width">Hire Me</a>
-                </div>
-                <div class="column large-half tab-full" data-aos="fade-up">
-                    <a href="images/Resume.pdf" class="btn btn--primary smoothscroll">Download CV</a>
-                </div>
-            </div>
-
-        </div> <!-- end about-me -->
-
-        <div class="about-experience" id="about-experience">  
-
-            <div class="row heading-block" data-aos="fade-up">
-                <div class="column large-full">
-                    <h2 class="section-heading">Work & Education</h2>
-                </div>
-            </div>
-
-            <div class="row about-experience__timeline">
-
-                <div class="column large-half tab-full" data-aos="fade-up">
-                    <div class="timeline">
-
-                        <div class="timeline__icon-wrap">
-                            <span class="timeline__icon timeline__icon--work"></span>
+                        <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-body">
+                            <span class="timeline-date">July 2024 – May 2025</span>
+                            <h3 class="timeline-company">Molar Strata Labs</h3>
+                            <h4 class="timeline-role">FullStack Developer</h4>
+                            <p>I built and maintained APIs using Node.js and Typescript, developed a dashboard interface with Google OAuth authentication, leveraging Zustand for efficient client-side
+                            state management. I also implemented server-side rendering (SSR) to improve performance, SEO, and initial page load times.
+                            Optimized frontend delivery by serving static assets via a Content Delivery Network (CDN) for faster global access</p>
                         </div>
+                    </div>
 
-                        <div class="timeline__block">
-                            <div class="timeline__bullet"></div>
-                            <div class="timeline__header">
-                                <p class="timeline__timeframe">September 2023 - September 2024</p>
-                                <h3 class="item-title">Quibble</h3>
-                                <h5>Frontend Developer</h5>
-                            </div>
-                            <div class="timeline__desc">
-                                <p>Quibble aims to bridge the gap in the vacation rental industry by offering a science-based approach to revenue. Here, I developed user-friendly interfaces and optimized performance, enhancing user engagement and satisfaction. I also collaborated with cross-functional teams to deliver high-quality projects on time, fostering teamwork.</p>
-                            </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-body">
+                            <span class="timeline-date">September 2023 – September 2024</span>
+                            <h3 class="timeline-company">Quibble</h3>
+                            <h4 class="timeline-role">Frontend Developer</h4>
+                            <p>Quibble aims to bridge the gap in the vacation rental industry by offering a science-based approach to revenue. I developed user-friendly interfaces and optimized performance, enhancing user engagement and satisfaction while collaborating with cross-functional teams.</p>
                         </div>
+                    </div>
 
-                        <div class="timeline__block">
-                            <div class="timeline__bullet"></div>
-                            <div class="timeline__header">
-                                <p class="timeline__timeframe">October 2023 - Present</p>
-                                <h3 class="item-title">Yuki</h3>
-                                <h5>Blockchain Developer Intern</h5>
-                            </div>
-                            <div class="timeline__desc">
-                                <p>Yuki provides the complete infrastructure needed for businesses to build, launch, and scale digital asset products. I collaborated with the senior blockchain developer to design and implement blockchain APIs. I also utilized GraphQL and other tools to enhance data retrieval and processing. I also contributed to the optimization of blockchain solutions for efficiency and scalability.</p>
-                            </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-body">
+                            <span class="timeline-date">June 2022 – November 2023</span>
+                            <h3 class="timeline-company">E.F Network</h3>
+                            <h4 class="timeline-role">Frontend Developer</h4>
+                            <p>EF Network is a conglomerate of subsidiary companies focused on security, broadband, safety and e-commerce. I built aesthetically pleasing user interfaces consuming APIs, worked closely with UI designers, and optimized performance by reducing file sizes, minifying code, and implementing caching techniques.</p>
                         </div>
-
-                        <div class="timeline__block">
-                            <div class="timeline__bullet"></div>
-                            <div class="timeline__header">
-                                <p class="timeline__timeframe">June 2022 - November 2023</p>
-                                <h3 class="item-title">E.F Network</h3>
-                                <h5>Frontend Developer</h5>
-                            </div>
-                            <div class="timeline__desc">
-                                <p>EF Network Ltd is a conglomerate of subsidiary companies whose aim is to improve the normal conventional systems and make life better, being your go-to company from everything related to security, broadband,safety and ecommerce services. Here I am a frontend developer, and I have built visual and aesthetically pleasing user interfaces consuming APIs to enhance the functionality and data. I also work closely with UI designers to translate visual designs into functional user interfaces, optimizing the performance and usability of websites or applications by reducing file sizes, optimizing images, minifying code, and implementing caching techniques, thereby creating seamless user experience.</p>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
 
-                <div class="column large-half tab-full" data-aos="fade-up">
-                    <div class="timeline">
+                <!-- Education -->
+                <div class="timeline" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-label">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Education</span>
+                    </div>
 
-                        <div class="timeline__icon-wrap">
-                            <span class="timeline__icon timeline__icon--education"></span>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-body">
+                            <h3 class="timeline-company">Landmark University</h3>
+                            <h4 class="timeline-role">B.Sc. Computer Science</h4>
+                            <p>Graduated with First Class Honours — CGPA: 4.66 / 5.0</p>
                         </div>
-
-                        <div class="timeline__block">
-                            <div class="timeline__bullet"></div>
-                            <div class="timeline__header">
-                                <h3 class="item-title">Landmark University</h3>
-                                <h5>Bachelor of Science, Computer Science</h5>
-                            </div>
-                            <div class="timeline__desc">
-                                <p>I studied Computer Science in Landmark University where I graduated with a First Class (4.66/5.0)</p>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
+
             </div>
 
-        </div> <!-- end about-experience -->
+        </div>
+    </section>
+    <!-- end s-experience -->
 
-    </section> <!-- end s-about -->
 
-
-    <!-- works
+    <!-- Works Section
     ================================================== -->
     <section id="works" class="s-works target-section">
+        <div class="container">
 
-        <div class="row heading-block" data-aos="fade-up">
-            <div class="column large-full">
-                <h2 class="section-heading">Selected Works</h2>
-                <p>
-                    Here are some of my selected works I have done lately. Feel free to 
-                    check them out.
-                </p>
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Selected Works</h2>
+                <p class="section-desc">Here are some of my selected projects. Feel free to check them out.</p>
             </div>
-        </div> 
-        <div class="masonry-wrap">
 
-            <div class="masonry">
-                <!-- <div class="grid-sizer"></div> -->
-    
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/covidTracker.png" class="thumb-link" title="Covid Tracker" data-size="1050x700">
-                                <img src="images/portfolio/covidTracker.png" 
-                                     alt="">
-                            </a>    
-                            <a href="https://covid-19-tracker-b3746.web.app/" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-    
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Covid Tracker
-                            </h4>
-                            <p class="item-folio__cat">
-                                ReactJs, NodeJs
-                            </p>
-                        </div>
-    
-                        <div class="item-folio__caption">
-                            <a href="https://github.com/jadesolaadeagbo/covid19-Tracker">Github Repository</a>
-                            <p>An app that collects data from APIs to give a presentable form of covid-19 records such as deaths, recoveries and overall cases.</p>
+            <div class="works-grid">
+                <div class="work-card" data-aos="fade-up">
+                    <div class="work-card__img">
+                        <img src="images/Wemart.png" alt="Wemart">
+                        <div class="work-card__overlay">
+                            <div class="work-card__links">
+                                <a href="https://wemart-frontend.vercel.app/" target="_blank" rel="noopener" class="work-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/azeezkenny007/Wemart-Frontend" target="_blank" rel="noopener" class="work-link" title="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-    
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/chatApp.png" class="thumb-link" title="Chat Application" data-size="1050x700">
-                                <img src="images/portfolio/chatApp.png" alt="">
-                            </a>
-                            <a href="https://we-chat-6xp8.onrender.com/login" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Chat Application
-                            </h4>
-                            <p class="item-folio__cat">
-                                ReactJs, Daisy UI, SocketIO
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <a href="https://github.com/jadesolaadeagbo/CHAT-APP">Github Repository</a>
-                            <p>A simple chat application.</p>
-                        </div>
+                    <div class="work-card__info">
+                        <p class="work-card__tech">Next JS &middot; Node JS</p>
+                        <h3 class="work-card__title">Wemart</h3>
+                        <p class="work-card__desc">An e-commerce platform for buying and selling products online.</p>
                     </div>
                 </div>
 
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gabTaxi.png" class="thumb-link" title="Gab Taxi" data-size="1050x700">
-                                <img src="images/portfolio/gabTaxi.png"
-                                     alt="">
-                            </a>
-                            <a href="https://gab-taxi.vercel.app/" class="item-folio__project-link" title="Gab Taxi" target="_blank"></a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Gab Taxi
-                            </h4>
-                            <p class="item-folio__cat">
-                                Vuejs, TailwindCss
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <a href="https://github.com/jadesolaadeagbo/Netflix-clone-with-ReactJs.git">Github Repository</a>
-                            <p>An app that gives users information of the Gab Taxi commute platform and allows them to download the mobile apps on their devices.</p>
+                <div class="work-card" data-aos="fade-up" data-aos-delay="60">
+                    <div class="work-card__img">
+                        <img src="images/portfolio/covidTracker.png" alt="Covid Tracker">
+                        <div class="work-card__overlay">
+                            <div class="work-card__links">
+                                <a href="https://covid-19-tracker-b3746.web.app/" target="_blank" rel="noopener" class="work-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/jadesolaadeagbo/covid19-Tracker" target="_blank" rel="noopener" class="work-link" title="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div> 
-
-                <div class="masonry__brick" >
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/netflixClone.png" class="thumb-link" title="Grow Green" data-size="1050x700">
-                                <img src="images/portfolio/netflixClone.png" alt="">
-                            </a>
-                            <a href="https://netflix-clone-rubies21.vercel.app/" class="item-folio__project-link" title="Netflix Clone" target="_blank"></a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Netflix Clone
-                            </h4>
-                            <p class="item-folio__cat">
-                                ReactJs, Tailwindcss, Firebase
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <a href="https://github.com/jadesolaadeagbo/Netflix-clone-with-ReactJs">Github Repository</a>
-                            <p>Netflix is a subscription-based streaming service that allows our members to watch TV shows and movies on an internet-connected device. This is a clone of the nextflix app created using ReactJS and firebase</p>
-                        </div>
+                    <div class="work-card__info">
+                        <p class="work-card__tech">React JS &middot; Node JS</p>
+                        <h3 class="work-card__title">Covid Tracker</h3>
+                        <p class="work-card__desc">An app that collects data from APIs to give a presentable form of Covid-19 records — deaths, recoveries, and overall cases.</p>
                     </div>
                 </div>
 
-                <div class="masonry__brick float-left" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/weatherApp.png" class="thumb-link" title="" data-size="1050x700">
-                                <img src="images/portfolio/weatherApp.png" alt="">
-                            </a>
-                            <a href="https://weather-app-lyart-pi-79.vercel.app/" class="item-folio__project-link" title="" target="_blank"></a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Weather PWA
-                            </h4>
-                            <p class="item-folio__cat">
-                                ReactJs
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <a href="https://github.com/jadesolaadeagbo/Weather-App">Github Repository</a>
-                            <p>A simple Weather Progressive Web</p>
+                <div class="work-card" data-aos="fade-up" data-aos-delay="120">
+                    <div class="work-card__img">
+                        <img src="images/portfolio/chatApp.png" alt="Chat Application">
+                        <div class="work-card__overlay">
+                            <div class="work-card__links">
+                                <a href="https://we-chat-6xp8.onrender.com/login" target="_blank" rel="noopener" class="work-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/jadesolaadeagbo/CHAT-APP" target="_blank" rel="noopener" class="work-link" title="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div> 
-        
-                <!-- <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
-                                <img src="images/portfolio/fuji.jpg"
-                                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
-                            </a>
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
-                        </div>
-                        <div class="item-folio__text">
-                            <h4 class="item-folio__title">
-                                Fuji
-                            </h4>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                    <div class="work-card__info">
+                        <p class="work-card__tech">React JS &middot; Daisy UI &middot; Socket.IO</p>
+                        <h3 class="work-card__title">Chat Application</h3>
+                        <p class="work-card__desc">A real-time chat application built with React and Socket.IO for seamless, instant messaging.</p>
+                    </div>
+                </div>
+
+                <div class="work-card" data-aos="fade-up" data-aos-delay="180">
+                    <div class="work-card__img">
+                        <img src="images/portfolio/gabTaxi.png" alt="Gab Taxi">
+                        <div class="work-card__overlay">
+                            <div class="work-card__links">
+                                <a href="https://gab-taxi.vercel.app/" target="_blank" rel="noopener" class="work-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/jadesolaadeagbo/Netflix-clone-with-ReactJs.git" target="_blank" rel="noopener" class="work-link" title="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div> -->
+                    <div class="work-card__info">
+                        <p class="work-card__tech">Vue JS &middot; Tailwind CSS</p>
+                        <h3 class="work-card__title">Gab Taxi</h3>
+                        <p class="work-card__desc">A platform showcasing the Gab Taxi commute service and allowing users to download the mobile app on their devices.</p>
+                    </div>
+                </div>
 
-            </div> 
+                <div class="work-card" data-aos="fade-up" data-aos-delay="240">
+                    <div class="work-card__img">
+                        <img src="images/portfolio/netflixClone.png" alt="Netflix Clone">
+                        <div class="work-card__overlay">
+                            <div class="work-card__links">
+                                <a href="https://netflix-clone-rubies21.vercel.app/" target="_blank" rel="noopener" class="work-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/jadesolaadeagbo/Netflix-clone-with-ReactJs" target="_blank" rel="noopener" class="work-link" title="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card__info">
+                        <p class="work-card__tech">React JS &middot; Tailwind CSS &middot; Firebase</p>
+                        <h3 class="work-card__title">Netflix Clone</h3>
+                        <p class="work-card__desc">A fully functional Netflix clone with Firebase authentication and real-time movie data from the TMDB API.</p>
+                    </div>
+                </div>
 
-        </div> 
+                <div class="work-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="work-card__img">
+                        <img src="images/portfolio/weatherApp.png" alt="Weather PWA">
+                        <div class="work-card__overlay">
+                            <div class="work-card__links">
+                                <a href="https://weather-app-lyart-pi-79.vercel.app/" target="_blank" rel="noopener" class="work-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/jadesolaadeagbo/Weather-App" target="_blank" rel="noopener" class="work-link" title="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card__info">
+                        <p class="work-card__tech">React JS</p>
+                        <h3 class="work-card__title">Weather PWA</h3>
+                        <p class="work-card__desc">A Progressive Web App that fetches and displays real-time weather data for any location in the world.</p>
+                    </div>
+                </div>
 
-    </section> 
-    <!-- end s-work -->
-
-    <!-- contact
-    ================================================== -->
-    <!-- <section id="contact" class="s-contact ss-dark target-section">
-
-        <div class="row heading-block" data-aos="fade-up">
-            <div class="column large-full">
-                <h2 class="section-heading">Contact</h2>
             </div>
+
         </div>
+    </section>
+    <!-- end s-works -->
 
-        <div class="row contact-main" data-aos="fade-up">
-             <div class="column large-full"> -->
-                <div class="contact-email">
-                Send me an email at:  &nbsp; <a href="mailto:jadesolaadeagbo@gmail.com">jadesolaadeagbo@gmail.com</a>
-                </div>
 
-                <p class="contact-desc">
-                I'm happy to connect, listen and help. 
-                <br>
-                Let's work together and build
-                something awesome. Let's turn your idea to an even greater product!
+    <!-- Contact Section
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+        <div class="container">
+
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+
+            <div class="contact-content" data-aos="fade-up">
+                <p class="contact-tagline">
+                    I'm happy to connect, listen and help. Let's work together and build
+                    something awesome — let's turn your idea into an even greater product!
                 </p>
-        <!-- </div> -->
 
-        <div class="row contact-infos" data-aos="fade-up" data-aos-anchor=".contact-main">
+                <a href="mailto:jadesolaadeagbo@gmail.com" class="contact-email">
+                    jadesolaadeagbo@gmail.com
+                </a>
 
-
-            <div class="contact-social">
-                <ul>
-                    <li><a href="https://github.com/jadesolaadeagbo" title="Github">Github</a></li>
-                    <li><a href="https://instagram.com/jadesolaadeagbo" title="Instagram">Instagram</a></li>
-                    <li><a href="https://linkedin.com/in/jadesolaadeagbo" title="Instagram">LinkedIn</a></li>
+                <ul class="contact-social">
+                    <li>
+                        <a href="https://github.com/jadesolaadeagbo" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/jadesolaadeagbo" target="_blank" rel="noopener">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/jadesolaadeagbo" target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </li>
                 </ul>
             </div>
 
-        </div> <!-- end contact-infos -->
+        </div>
+    </section>
+    <!-- end s-contact -->
 
-    </section>  
 
-    <!-- footer
+    <!-- Footer
     ================================================== -->
-    <footer>
-        <div class="row">
-            <div class="column large-full ss-copyright">
-                <span>© Copyright Jadesola Adeagbo 2025</span> 
-            </div>            
-
-            <div class="ss-go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"></a>
+    <footer class="s-footer">
+        <div class="container">
+            <div class="footer-inner">
+                <p class="footer-copy">&copy; 2025 Jadesola Adeagbo. All rights reserved.</p>
+                <a class="footer-top smoothscroll" href="#top" aria-label="Back to top">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
             </div>
         </div>
     </footer>
+    <!-- end s-footer -->
 
 
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div><!-- end photoSwipe background -->
-
-    <!-- Java Script
+    <!-- JavaScript
     ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
@@ -523,3 +425,4 @@
 
 
 </body>
+</html>
